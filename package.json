@@ -2,14 +2,19 @@
   "name": "zap-kviz",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "default": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html",
     "start": "parcel index.html"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "parcel": "^2.10.3"
+  },
+  "devDependencies": {
+    "cssnano": "^6.0.3",
+    "postcss": "^8.4.33"
   }
 }
