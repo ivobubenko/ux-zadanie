@@ -1,0 +1,26 @@
+{
+  "question-list": [
+    {
+      "question": "Vyberte správnu deklaráciu poľa",
+      "answers": [
+        ["int array[5]", true],
+        ["float data[10]", true],
+        "int data[]",
+        "data int[]"
+      ]
+    },
+    {
+      "question": "Polia sa indexuju od cisla",
+      "answers": ["-1", "1", "2", ["0", true]]
+    },
+    {
+      "question": "Funkcia qsort() sa nachadza v kniznici",
+      "answers": [["stdlib.h", true], "stdio.h", "arrays.h"]
+    },
+    {
+      "question": "Binary search mozem pouzit iba na usporiadanej mnozine",
+      "answers": ["Nepravda", ["Pravda", true]]
+    },
+    {}
+  ]
+}

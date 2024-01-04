@@ -1,0 +1,21 @@
+{
+  "question-list": [
+    {
+      "question": "Vyberte spávnu deklaráciu celočíselnej premennej",
+      "answers": [
+        ["int age = 10;", true],
+        "char age = '10';",
+        "float age = 10.0",
+        "age = 10;"
+      ]
+    },
+    {
+      "question": "V jazyku C sú znaky sú v pamäti reprezentované tiež ako čísla",
+      "answers": ["Nepravda", ["Pravda", true]]
+    },
+    {
+      "question": "Ak chcem výpis premennej typu float formátovať na 2 desatinné miesta použijem zápis",
+      "answers": [["%.2f", true], "%.2d", "%2.f"]
+    }
+  ]
+}

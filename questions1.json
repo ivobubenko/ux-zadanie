@@ -1,0 +1,39 @@
+{
+  "question-list": [
+    {
+      "question": "Akým príkazom vytvoríme nový priečinok?",
+      "answers": [
+        ["mkdir", true],
+        "ls",
+        "rm",
+        "create directory",
+        "cd",
+        "ls -la"
+      ]
+    },
+    {
+      "question": "Akým príkazom zmením adresát?",
+      "answers": [
+        "mkdir",
+        "ls",
+        "rm",
+        "create directory",
+        ["cd", true],
+        "ls -la"
+      ]
+    },
+    {
+      "question": "Ako vyzerá hlavná funkcia jazyka C?",
+      "answers": [
+        ["int main(){\n    return 0;   \n}", true],
+        "jazyk C nemá hlavnú funkciu",
+        "public static void main(){}"
+      ]
+    },
+    {
+      "question": "Pomocou akej direktívy vytvoríme v jazyku C makro",
+      "answers": [["#include", true], "#define", "#macro", ["#include", true]]
+    },
+    {}
+  ]
+}
